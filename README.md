@@ -13,5 +13,5 @@ To test this project run the batch file which tests 3 cases:
 2. A empty arxml file
 3. A normal sample file and its execution
 
-The Output of the batch file sould fail for the first 2 cases and throws an exception in the terminal
+The Output of the batch file sould fail for the first 2 cases and throws an exception in the terminal  
 The third case should run normally and create a new file called "sampleTest1_mod.arxml"
