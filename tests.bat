@@ -1,6 +1,6 @@
-javac -d . Lab6/*.java
-java Lab6.ArxmlSorter Lab6\ArxmlSorter.java
-java Lab6.ArxmlSorter Lab6\emptyTest1.arxml
-java Lab6.ArxmlSorter Lab6\sampleTest1.arxml
+javac -d . Code/*.java
+java Code.ArxmlSorter ArxmlSorter.java
+java Code.ArxmlSorter emptyTest1.arxml
+java Code.ArxmlSorter sampleTest1.arxml
 
 

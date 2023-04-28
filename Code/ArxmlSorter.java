@@ -1,4 +1,4 @@
-package Lab6;
+package Code;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -86,7 +86,7 @@ public class ArxmlSorter {
             }
             Collections.sort(containers);
 
-            File output = new File(arxmlfile.substring(0, arxmlString.indexOf("."))+ "_mod.arxml");
+            File output = new File(arxmlfile.substring(0, arxmlfile.indexOf("."))+ "_mod.arxml");
             if(output.createNewFile()){
                 System.out.println("New file created");
             }
